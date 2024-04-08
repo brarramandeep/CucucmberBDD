@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.571 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestNGRunner.runScenario["Login and Verify Landing page details", "Application Login and Landing Page Details"](3)  Time elapsed: 20.035 s  <<< FAILURE!
+java.lang.AssertionError: expected [Always by your sidessssss. Make it Intact.] but found [Always by your side. Make it Intact.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at pageObjects.HomePage.assertIntactMessage(HomePage.java:53)
+	at stepDefinitions.HomePageStepDef.the_user_assert_that_the_text_message_is_displayed_in_the_page(HomePageStepDef.java:43)
+	at ✽.in the HomePage, the user assert that the text message Always by your sidessssss. Make it Intact. is displayed in the page(file:///Users/mehreenbrar/eclipse-workspace/CucumberFrameworkTestNg/src/test/java/features/SmokeTest.feature:5)
+

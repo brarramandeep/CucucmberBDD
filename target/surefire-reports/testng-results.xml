@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T08:36:55 EDT" name="Surefire suite" finished-at="2024-04-08T08:37:17 EDT" duration-ms="22096">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-08T08:36:55 EDT" name="Surefire test" finished-at="2024-04-08T08:37:17 EDT" duration-ms="22096">
+      <class name="cucumberOptions.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" started-at="2024-04-08T08:36:55 EDT" name="setUpClass" finished-at="2024-04-08T08:36:55 EDT" duration-ms="558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@997d532]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" started-at="2024-04-08T08:36:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T08:37:15 EDT" duration-ms="19707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login and Verify Landing page details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Application Login and Landing Page Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" started-at="2024-04-08T08:36:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T08:37:17 EDT" duration-ms="21154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login and Verify Landing page details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Application Login and Landing Page Details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" started-at="2024-04-08T08:36:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T08:37:15 EDT" duration-ms="19809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to create a quote on Home Insurance page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create a quote for home on Home insurance Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" started-at="2024-04-08T08:36:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T08:37:15 EDT" duration-ms="20029" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login and Verify Landing page details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Application Login and Landing Page Details"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Always by your sidessssss. Make it Intact.] but found [Always by your side. Make it Intact.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Always by your sidessssss. Make it Intact.] but found [Always by your side. Make it Intact.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at pageObjects.HomePage.assertIntactMessage(HomePage.java:53)
+at stepDefinitions.HomePageStepDef.the_user_assert_that_the_text_message_is_displayed_in_the_page(HomePageStepDef.java:43)
+at ✽.in the HomePage, the user assert that the text message Always by your sidessssss. Make it Intact. is displayed in the page(file:///Users/mehreenbrar/eclipse-workspace/CucumberFrameworkTestNg/src/test/java/features/SmokeTest.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGRunner@7ea37dbf]" started-at="2024-04-08T08:37:17 EDT" name="tearDownClass" finished-at="2024-04-08T08:37:17 EDT" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestNGRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
