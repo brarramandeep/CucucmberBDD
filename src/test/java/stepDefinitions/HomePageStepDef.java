@@ -33,9 +33,9 @@ public class HomePageStepDef {
 		
 		
 
-		homePage.selectProvince(province);
+//		homePage.selectProvince(province);
 		homePage.confirmCookie();
-		homePage.confirmProvinceButton();
+//		homePage.confirmProvinceButton();
 	}
 
 	@Then("^(.+), the user assert that the text message (.+) is displayed in the page$")

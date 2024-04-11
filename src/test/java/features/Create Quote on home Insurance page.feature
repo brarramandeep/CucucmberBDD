@@ -8,7 +8,7 @@ Feature: Create a quote for home on Home insurance Page
     
     
 
-    @LoginTest @SmokeTests
+    @LoginTest @FullRegression
     Examples: 
       | province | message                              | stringData   | intData |
       | Alberta  | Always by your side. Make it Intact. | "StringData" | 1233455 |

@@ -14,9 +14,9 @@ public class HomePage {
 	// methods.
 	private By provinceDropdownList = By.xpath("//*[@class='i-cmp-province-selector__body'][1]/ul/li/label/span[2]");
 
-	private By confirmCookie = By.xpath("//button[@class='ic-button ic-button--style--tertiary-inverse']");
-	private By confirmProvinceButton = By.xpath("//*[text()='Confirm'][1]");
-	private By intactMessage = By.xpath("//*[@class='i-hero-banner__title']/div");
+	private By confirmCookie = By.id("consentBtn");
+	private By confirmProvinceButton = By.id("regionBtn");
+	private By intactMessage = By.xpath("//*[@id='header']/div/div/div/p");
 
 	public HomePage(WebDriver driver) {
 
@@ -37,7 +37,7 @@ public class HomePage {
 	}
 
 	public void confirmCookie() {
-		driver.findElement(By.xpath("//button[@class='ic-button ic-button--style--tertiary-inverse']")).click();
+		driver.findElement(confirmCookie).click();
 
 	}
 

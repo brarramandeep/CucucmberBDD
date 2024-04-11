@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class ClaimsPage {
 	public WebDriver driver;
 
-	private By claimslInk = By.xpath("//span[@class='i-cmp-primary-nav-button__label' and text()='Claims']");
+	private By claimslInk = By.xpath("//nav[@class='menu__mobile-pages']/ul/li[3]");
 
 	public ClaimsPage(WebDriver driver) {
 

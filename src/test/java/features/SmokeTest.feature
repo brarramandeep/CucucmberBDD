@@ -8,7 +8,7 @@ Feature: Application Login and Landing Page Details
 
     @LoginTest @SmokeTests
     Examples: 
-      | province | message                                    | stringData   | intData |
-      | Alberta  | Always by your sidessssss. Make it Intact. | "StringData" | 1233455 |
-      | Ontario  | Always by your side. Make it Intact.       | "StringData" | 1233455 |
-      | Yukon    | Always by your side. Make it Intact.       | "StringData" | 1233455 |
+      | province | message                                                                      | stringData   | intData |
+      | Alberta  | Bundle your home and car insurance to save in Alberta! Get your quote today. | "StringData" | 1233455 |
+      | Ontario  | Bundle your home and car insurance to save in Ontario! Get your quote today. | "StringData" | 1233455 |
+      #| Yukon    | Bundle your home and car insurance to save! Get your quote today.            | "StringData" | 1233455 |
